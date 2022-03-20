@@ -1,0 +1,22 @@
+learning_rate: 0.001
+n_batches: 10
+n_classes: 10
+num_epochs: 10
+download: True
+input_C: 1
+input_H: 28
+input_W: 28
+conv1_in_channels: 1
+conv1_out_channels: 4
+conv1_kernel_size: 4
+pool_kernel_size: 2
+pool_stride: 2
+conv2_in_channels: 4
+conv2_out_channels: 20
+conv2_kernel_size: 4
+fc1_out_features: 180
+fc2_out_features: 64
+fc3_out_features: 10
+
+
+
